@@ -143,10 +143,8 @@ If you want to retrain the model:
 - Create an API endpoint for programmatic access
 - Implement model versioning and deployment strategies
 
-## License
 
-This project is part of PhysicsWallah coursework.
 
 ## Author
 
-Created as a machine learning project for educational purposes.
+Created as a machine learning project for upskilling purposes.
