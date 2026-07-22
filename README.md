@@ -147,4 +147,4 @@ If you want to retrain the model:
 
 ## Author
 
-Created as a machine learning project for educational purposes.
+Created as a machine learning project for upskilling purposes.
