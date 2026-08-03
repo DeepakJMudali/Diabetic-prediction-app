@@ -36,11 +36,7 @@ def predict_datapoint():
         DiabetesPedigreeFunction = float(request.form.get('DiabetesPedigreeFunction'))
         Age = float(request.form.get('Age'))
 
-        Glucose = np.log1p(Glucose)
-        BloodPressure = np.log1p(BloodPressure)
-        SkinThickness = np.log1p(SkinThickness)
-        Insulin = np.log1p(Insulin)
-        BMI = np.log1p(BMI)
+
    
         new_data=scaler.transform([[Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age]])
         predict=clf.predict(new_data)
